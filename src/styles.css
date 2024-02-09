@@ -180,7 +180,7 @@
 .bg-success {
     font-size: 1rem;
     background-color: var(--btnbg)!important;
-    color: var(--btnfontcolor)!important;
+    /* color: var(--btnfontcolor)!important; */
 }
 .bg-danger {
     font-size: 1rem;
@@ -209,5 +209,10 @@
 }
 .fa-chevron-circle-right:before {
     color: darkgray;
+}
+
+.something{
+    display: flex;
+    flex-direction: row;
 }
 
